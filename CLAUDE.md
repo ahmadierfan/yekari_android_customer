@@ -1,13 +1,13 @@
 # یکاری — پوستهٔ اندروید مشتری
 
 پوستهٔ Kotlin که وب‌اپ مشتری (`yekari_customer`) را در WebView باز می‌کند. راهنمای کامل،
-پیکربندی و پل JS در `README.md`.
+پیکربندی و پل JS در `README.md`. اپ مرجع الگوها: `ahmadierfan/homeease_android`.
 
 ## قواعد
 
 - **کد `app/src/main/java/ir/yekari/shell/` با ریپوی `yekari_android_courier` یکی است.** هر تغییری در
   آن را در هر دو ریپو بزن. تفاوت‌ها فقط: بالای `app/build.gradle.kts`، `AppFeatures.kt`، منابع
-  (`strings.xml`, `colors.xml`) و در پیک پوشهٔ `tracking/`.
+  (`strings.xml`, `colors.xml`) و در پیک پوشهٔ `services/`.
 - `namespace` در هر دو `ir.yekari.shell` است (برای یکی ماندن کد)؛ `applicationId` جداست.
 - **مجوز را همان لحظهٔ نیاز بخواه** با `PermissionGate` — نه در `onCreate`.
 - **پل بومی فقط روی میزبان‌های خود یکاری** (`Hosts.isApp`)؛ متد تازهٔ `@JavascriptInterface` باید از
