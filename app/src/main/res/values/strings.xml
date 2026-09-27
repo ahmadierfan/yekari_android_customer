@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">یکاری</string>
+    <string name="pick_photo">انتخاب عکس</string>
+    <string name="share_via">ارسال با…</string>
+    <string name="press_back_again">برای خروج دوباره «برگشت» را بزن</string>
+    <string name="no_app_for_link">برنامه‌ای برای باز کردن این لینک پیدا نشد</string>
+    <string name="channel_general">اعلان‌های سفارش</string>
+    <string name="channel_general_desc">وضعیت سفارش، پیام انجام‌دهنده و پرداخت</string>
+</resources>
